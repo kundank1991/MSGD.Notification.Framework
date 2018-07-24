@@ -1,29 +1,29 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Register xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/crm/2011/tools/pluginregistration">
   <Solutions>
-    <Solution Assembly="MSGD.Notification.Framework.Plugins.dll" Id="00000000-0000-0000-0000-000000000000" IsolationMode="Sandbox" SourceType="Database">
+    <Solution Assembly="MSGD.Notification.Framework.Plugins.dll" Id="5554ee0d-0c6d-494f-aa71-f0e8f2234e95" IsolationMode="Sandbox" SourceType="Database">
       <PluginTypes>
         <clear />
-        <Plugin Description="Plug-in to didd_Notify of any Entity" FriendlyName="didd_Notify of any Entity" Name="MSGD.Notification.Framework.Plugins.PostNotify" Id="00000000-0000-0000-0000-000000000000" TypeName="MSGD.Notification.Framework.Plugins.PostNotify">
+        <Plugin Description="Plug-in to didd_Notify of any Entity" FriendlyName="didd_Notify of any Entity" Name="MSGD.Notification.Framework.Plugins.PostNotify" Id="1ad9fc63-0e00-40bf-bfdb-fd8a23b97743" TypeName="MSGD.Notification.Framework.Plugins.PostNotify">
           <Steps>
             <clear />
-            <Step AsyncAutoDelete="false" Name="didd_Notify of any Entity" Description="didd_Notify of any Entity" Id="00000000-0000-0000-0000-000000000000" ImpersonatingUserId="00000000-0000-0000-0000-000000000000" MessageName="didd_Notify" Mode="Synchronous" PrimaryEntityName="none" Rank="1" Stage="PostOutsideTransaction" SupportedDeployment="ServerOnly" MessageEntityId="00000000-0000-0000-0000-000000000000">
+            <Step AsyncAutoDelete="false" Name="didd_Notify of any Entity" Description="didd_Notify of any Entity" Id="87270c3a-258f-e811-a962-000d3af24d43" ImpersonatingUserId="00000000-0000-0000-0000-000000000000" MessageName="didd_Notify" Mode="Synchronous" PrimaryEntityName="none" Rank="1" Stage="PostOutsideTransaction" SupportedDeployment="ServerOnly" MessageEntityId="00000000-0000-0000-0000-000000000000">
               <Images />
             </Step>
           </Steps>
         </Plugin>
-        <Plugin Description="Plug-in to didd_NotificationPlaceHolder of any Entity" FriendlyName="didd_NotificationPlaceHolder of any Entity" Name="MSGD.Notification.Framework.Plugins.PreNotificationPlaceHolder" Id="00000000-0000-0000-0000-000000000000" TypeName="MSGD.Notification.Framework.Plugins.PreNotificationPlaceHolder">
+        <Plugin Description="Plug-in to didd_NotificationPlaceHolder of any Entity" FriendlyName="didd_NotificationPlaceHolder of any Entity" Name="MSGD.Notification.Framework.Plugins.PreNotificationPlaceHolder" Id="ce458fbc-93f2-4fff-abf9-c0bda08601b7" TypeName="MSGD.Notification.Framework.Plugins.PreNotificationPlaceHolder">
           <Steps>
             <clear />
-            <Step AsyncAutoDelete="false" Name="didd_NotificationPlaceHolder of any Entity" Description="didd_NotificationPlaceHolder of any Entity" Id="00000000-0000-0000-0000-000000000000" ImpersonatingUserId="00000000-0000-0000-0000-000000000000" MessageName="didd_NotificationPlaceHolder" Mode="Synchronous" PrimaryEntityName="none" Rank="1" Stage="PostOutsideTransaction" SupportedDeployment="ServerOnly" MessageEntityId="00000000-0000-0000-0000-000000000000">
+            <Step AsyncAutoDelete="false" Name="didd_NotificationPlaceHolder of any Entity" Description="didd_NotificationPlaceHolder of any Entity" Id="e2306842-258f-e811-a95d-000d3af24046" ImpersonatingUserId="00000000-0000-0000-0000-000000000000" MessageName="didd_NotificationPlaceHolder" Mode="Synchronous" PrimaryEntityName="none" Rank="1" Stage="PostOutsideTransaction" SupportedDeployment="ServerOnly" MessageEntityId="00000000-0000-0000-0000-000000000000">
               <Images />
             </Step>
           </Steps>
         </Plugin>
-        <Plugin Description="Plug-in to didd_SendEmailActivity of any Entity" FriendlyName="didd_SendEmailActivity of any Entity" Name="MSGD.Notification.Framework.Plugins.SendEmailActivity" Id="00000000-0000-0000-0000-000000000000" TypeName="MSGD.Notification.Framework.Plugins.SendEmailActivity">
+        <Plugin Description="Plug-in to didd_SendEmailActivity of any Entity" FriendlyName="didd_SendEmailActivity of any Entity" Name="MSGD.Notification.Framework.Plugins.SendEmailActivity" Id="2789c177-2d7d-45e2-8dcb-9f56b9e20c9a" TypeName="MSGD.Notification.Framework.Plugins.SendEmailActivity">
           <Steps>
             <clear />
-            <Step AsyncAutoDelete="false" Name="didd_SendEmailActivity of any Entity" Description="didd_SendEmailActivity of any Entity" Id="00000000-0000-0000-0000-000000000000" ImpersonatingUserId="00000000-0000-0000-0000-000000000000" MessageName="didd_SendEmailActivity" Mode="Synchronous" PrimaryEntityName="none" Rank="1" Stage="PostOutsideTransaction" SupportedDeployment="ServerOnly" MessageEntityId="00000000-0000-0000-0000-000000000000">
+            <Step AsyncAutoDelete="false" Name="didd_SendEmailActivity of any Entity" Description="didd_SendEmailActivity of any Entity" Id="9c554146-258f-e811-a963-000d3af246cc" ImpersonatingUserId="00000000-0000-0000-0000-000000000000" MessageName="didd_SendEmailActivity" Mode="Synchronous" PrimaryEntityName="none" Rank="1" Stage="PostOutsideTransaction" SupportedDeployment="ServerOnly" MessageEntityId="00000000-0000-0000-0000-000000000000">
               <Images />
             </Step>
           </Steps>
