@@ -7,7 +7,7 @@
         <Plugin Description="Plug-in to didd_Notify of any Entity" FriendlyName="didd_Notify of any Entity" Name="MSGD.Notification.Framework.Plugins.PostNotify" Id="1ad9fc63-0e00-40bf-bfdb-fd8a23b97743" TypeName="MSGD.Notification.Framework.Plugins.PostNotify">
           <Steps>
             <clear />
-            <Step AsyncAutoDelete="false" Name="didd_Notify of any Entity" Description="didd_Notify of any Entity" Id="87270c3a-258f-e811-a962-000d3af24d43" ImpersonatingUserId="00000000-0000-0000-0000-000000000000" MessageName="didd_Notify" Mode="Synchronous" PrimaryEntityName="none" Rank="1" Stage="PostOutsideTransaction" SupportedDeployment="ServerOnly" MessageEntityId="00000000-0000-0000-0000-000000000000">
+            <Step AsyncAutoDelete="false" Name="didd_Notify of any Entity" Description="didd_Notify of any Entity" Id="a5ee396f-288f-e811-a962-000d3af24950" ImpersonatingUserId="00000000-0000-0000-0000-000000000000" MessageName="didd_Notify" Mode="Synchronous" PrimaryEntityName="none" Rank="1" Stage="PostOutsideTransaction" SupportedDeployment="ServerOnly" MessageEntityId="00000000-0000-0000-0000-000000000000">
               <Images />
             </Step>
           </Steps>

@@ -1,0 +1,67 @@
+<html><head>
+<script src="ClientGlobalContext.js.aspx" type="text/javascript"></script>
+<script src="didd_notificationtemplate_Form" type="text/javascript"></script>
+<script src="didd_tnxrmutilities" type="text/javascript"></script>
+    <script>
+        // window.addEventListener("DOMContentLoaded", onLoad());
+
+    </script>
+
+   <title>Make A Selection</title>
+    <style type="text/css">
+       #SelectEntity {
+            width: 200px;
+            margin-left: 105px;
+        }
+       #SelectField {
+            width: 200px;
+            margin-left: 105px;
+        }
+
+            </style>
+<meta charset="utf-8"><meta><meta><meta></head>
+
+<body style="-ms-word-wrap: break-word;">
+&nbsp;&nbsp;&nbsp;<table>
+<tbody><tr>
+<td>
+    <label>
+        Select Entity 
+    </label><span id="valdstatus" style="color: red;">*</span>
+</td>
+<td>
+    <select name="SelectEntity" id="SelectEntity" onreadystatechange="alert('Hi');">
+        <option value="0">Select</option>
+    </select>
+    
+</td>
+    </tr>
+    <tr>
+<td>
+    <label>
+        Select Field 
+    </label><span id="Span1" style="color: red;">*</span>
+</td>
+<td>
+    <select name="SelectField" id="SelectField" onreadystatechange="alert('Hi');">
+        <option value="0">Select</option>
+    </select>
+    
+</td>
+</tr>
+
+<tr></tr>
+<tr></tr>
+<tr></tr>
+<tr></tr>
+<tr></tr>
+<tr></tr>
+
+
+<tr>
+        <td></td>
+        <td align="right"><input name="Attach" id="Attach" onclick="applyChanges();" type="button" value="Attach">
+        <input name="Cancel" id="Cancel" onclick="closeWindow();" type="button" value="Cancel"></td>
+ </tr>
+</tbody></table>
+</body></html>
